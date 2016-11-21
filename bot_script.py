@@ -1,5 +1,4 @@
-#SLACK_BOT_TOKEN=xoxb-68911171748-HkC2SjhyMMNJ9gqoI1JZWImP
-#Slack_bot_id= U20ST51N0
+
 
 import os
 import time
@@ -7,14 +6,14 @@ from slackclient import SlackClient
 
 
 # starterbot's ID as an environment variable
-BOT_ID = "U20ST51N0"
+BOT_ID = ""
 
 # constants
 AT_BOT = "<@" + BOT_ID + ">"
 EXAMPLE_COMMAND = "name"
 
 # instantiate Slack & Twilio clients
-slack_client = SlackClient("xoxb-68911171748-HkC2SjhyMMNJ9gqoI1JZWImP")
+slack_client = SlackClient("")
 
 
 def handle_command(command, channel):
