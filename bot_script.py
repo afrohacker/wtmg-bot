@@ -61,4 +61,4 @@ if __name__ == "__main__":
                 handle_command(command, channel)
             time.sleep(READ_WEBSOCKET_DELAY)
     else:
-        print("Connection failed. Invalid Slack token or bot ID?")
+        print("Connection failed. Invalid Slack token or bot ID? Please input correct message")
